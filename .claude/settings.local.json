@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3)",
+      "Bash(npm start *)",
+      "Bash(curl -s http://localhost:3000)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(curl -s http://localhost:8000/)",
+      "Bash(npx react-scripts *)",
+      "Bash(pip install *)",
+      "Bash(uvicorn main:app --reload --port 8000)",
+      "Bash(ps -p 98945 -o pid,command)",
+      "Bash(ps -p 99303 -o pid,command)",
+      "Bash(kill -9 98945 99303)",
+      "Bash(gh api *)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npm install *)",
+      "Bash(ls /Users/arishj/ai-automation-starter/.claude/skills/ 2>/dev/null || ls ~/.claude/skills/ 2>/dev/null)",
+      "Bash(pkill -x \"Cursor\")",
+      "Bash(open -a \"Cursor\" /Users/arishj/ai-automation-starter)",
+      "Read(//Applications/**)",
+      "Bash(mdfind \"kMDItemKind == 'Application'\")",
+      "Bash(pip show *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
